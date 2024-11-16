@@ -6,9 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List - Application</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=library_books" />
 </head>
 
 <body>
+
+    <div class="container">
+        <div id="application-container">
+            <h2>
+                To-Do List
+                <span class="material-symbols-outlined">library_books</span>
+            </h2>
+
+            <div id="input-row">
+                <input type="text" name="" id="input-box" placeholder="add your todo task...">
+                <button type="button" onclick="addTask()">Add</button>
+            </div>
+
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
 
     <script src="index.js"></script>
 </body>
